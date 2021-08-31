@@ -32,6 +32,16 @@
 
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
 
+\usepackage{siunitx}
+\sisetup{
+    detect-all,
+    output-decimal-marker={,},
+    group-minimum-digits = 3,
+    group-separator={~},
+    number-unit-separator={~},
+    inter-unit-product={~}
+}
+
 %----------------------------------------------------------------------------------------
 %   Début du document
 %----------------------------------------------------------------------------------------
@@ -40,85 +50,57 @@
 
 \setlength{\columnseprule}{1pt}
 
-\begin{multicols}{2}
-    \subsection*{ex1}
+\subsection*{ex1 - Recopier proprement le texte suivant}
 
-    \textbf{Recopier proprement les nombres suivants :}
-    \nombre{42} ; \nombre{541} ; \nombre{7160} ; \nombre{989120} ; \nombre{15,42}.
+En astronomie, les nombres sont très grands. \\
+La distance de la Terre au Soleil est \SI{152 000 000}{\km}. \\
+L'étoile la plus proche (hormis le Soleil) est Proxima du Centaure. Elle se trouve à \SI{40 000 000 000 000}{km} de la Terre.\\
+La masse de la Terre est \SI{5 980 000 000 000 000 000 000 000}{kg}.
+
+\subsection*{ex2 - Recopier proprement le calcul suivant }
+
+\begin{align*}
+    B &= 3 \times 2 \times 5 + 10 - 6 \div 3  \\
+    B &= 6 \times 5 + 10 - 2\\
+    B &= 30 + 10 - 2 \\
+    B &= 40 - 2\\
+    B &= 38\\  
+\end{align*}
 
 
-    \subsection*{ex2}
+\subsection*{ex1 - Recopier proprement le texte suivant}
 
-    \textbf{Recopier proprement le calcul suivant :}
-    \begin{align*}
-        B &= 3 \times 2 \times 5 + 10 - 6 \div 3  \\
-        B &= 6 \times 5 + 10 - 2\\
-        B &= 30 + 10 - 2 \\
-        B &= 40 - 2\\
-        B &= 38\\  
-    \end{align*}
-\end{multicols}
+En astronomie, les nombres sont très grands. \\
+La distance de la Terre au Soleil est \SI{152 000 000}{\km}. \\
+L'étoile la plus proche (hormis le Soleil) est Proxima du Centaure. Elle se trouve à \SI{40 000 000 000 000}{km} de la Terre.\\
+La masse de la Terre est \SI{5 980 000 000 000 000 000 000 000}{kg}.
 
-\vspace{1cm}
+\subsection*{ex2 - Recopier proprement le calcul suivant }
 
-\begin{multicols}{2}
-    \subsection*{ex1}
-    
-    \textbf{Recopier proprement les nombres suivants :}
-    \nombre{42} ; \nombre{541} ; \nombre{7160} ; \nombre{989120} ; \nombre{15,42}.
-        
-    \subsection*{ex2}
-    
-    \textbf{Recopier proprement le calcul suivant :}
-    \begin{align*}
-        B &= 3 \times 2 \times 5 + 10 - 6 \div 3  \\
-        B &= 6 \times 5 + 10 - 2\\
-        B &= 30 + 10 - 2 \\
-        B &= 40 - 2\\
-        B &= 38\\  
-    \end{align*}
-\end{multicols}
+\begin{align*}
+    B &= 3 \times 2 \times 5 + 10 - 6 \div 3  \\
+    B &= 6 \times 5 + 10 - 2\\
+    B &= 30 + 10 - 2 \\
+    B &= 40 - 2\\
+    B &= 38\\  
+\end{align*}
 
-\vspace{1cm}
 
-\begin{multicols}{2}
-    \subsection*{ex1}
-        
-    \textbf{Recopier proprement les nombres suivants :}
-    \nombre{42} ; \nombre{541} ; \nombre{7160} ; \nombre{989120} ; \nombre{15,42}.
-        
-        
-    \subsection*{ex2}
-        
-    \textbf{Recopier proprement le calcul suivant :}
-    \begin{align*}
-        B &= 3 \times 2 \times 5 + 10 - 6 \div 3  \\
-        B &= 6 \times 5 + 10 - 2\\
-        B &= 30 + 10 - 2 \\
-        B &= 40 - 2\\
-        B &= 38\\  
-    \end{align*}
-\end{multicols}
+\subsection*{ex1 - Recopier proprement le texte suivant}
 
-\vspace{1cm}
+En astronomie, les nombres sont très grands. \\
+La distance de la Terre au Soleil est \SI{152 000 000}{\km}. \\
+L'étoile la plus proche (hormis le Soleil) est Proxima du Centaure. Elle se trouve à \SI{40 000 000 000 000}{km} de la Terre.\\
+La masse de la Terre est \SI{5 980 000 000 000 000 000 000 000}{kg}.
 
-\begin{multicols}{2}
-    \subsection*{ex1}
-        
-    \textbf{Recopier proprement les nombres suivants :}
-    \nombre{42} ; \nombre{541} ; \nombre{7160} ; \nombre{989120} ; \nombre{15,42}.
-        
-        
-    \subsection*{ex2}
-        
-    \textbf{Recopier proprement le calcul suivant :}
-    \begin{align*}
-        B &= 3 \times 2 \times 5 + 10 - 6 \div 3  \\
-        B &= 6 \times 5 + 10 - 2\\
-        B &= 30 + 10 - 2 \\
-        B &= 40 - 2\\
-        B &= 38\\  
-    \end{align*}
-\end{multicols}
+\subsection*{ex2 - Recopier proprement le calcul suivant }
+
+\begin{align*}
+    B &= 3 \times 2 \times 5 + 10 - 6 \div 3  \\
+    B &= 6 \times 5 + 10 - 2\\
+    B &= 30 + 10 - 2 \\
+    B &= 40 - 2\\
+    B &= 38\\  
+\end{align*}
 
 \end{document}
