@@ -30,6 +30,11 @@ img: $(FIGOBJ)
 	pdflatex 5x1-calculer/5x1-cours.tex
 	mv 5x1-cours.pdf '$(PDFDIR)'/5x1-cours-calculer.pdf
 
+1d:
+	pdflatex 5x1-calculer/5x1-dm.tex
+	pdflatex 5x1-calculer/5x1-dm.tex
+	mv 5x1-dm.pdf '$(PDFDIR)'/5x1-dm-calculer.pdf
+
 
 # nettoyage		
 proper:
