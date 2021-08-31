@@ -1,0 +1,90 @@
+\documentclass[11pt]{article}
+\usepackage{geometry,marginnote} % Pour passer au format A4
+\geometry{hmargin=1cm, vmargin=1cm} % 
+
+% Page et encodage
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage[english,french]{babel} % Français et anglais
+\usepackage[utf8]{inputenc} 
+
+\usepackage{lmodern}
+\setlength\parindent{0pt}
+
+% Graphiques
+\usepackage{graphicx,float,grffile}
+\usepackage{pst-eucl, pst-plot,units} 
+
+% Maths et divers
+\usepackage{amsmath,amsfonts,amssymb,amsthm,verbatim}
+\usepackage{multicol,enumitem,url,eurosym,gensymb}
+\DeclareUnicodeCharacter{20AC}{\euro}
+
+% Sections
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape}
+
+% Tête et pied de page
+
+\usepackage{fancyhdr} \pagestyle{fancyplain} \fancyhead{} \fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+%----------------------------------------------------------------------------------------
+%   Début du document
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\setlength{\columnseprule}{1pt}
+
+\horrule{2px}
+\section*{Chapitre 1 - Calculer - \texttt{(T)}}
+\horrule{2px}
+
+L'objectif de ce chapitre est d'apprendre à \textbf{rédiger des calculs}.
+
+\section*{L'écriture des nombres}
+
+On écrit son cours pour se souvenir et pour être lu.
+
+Il faut donc faire un effort d'écriture sur les chiffres et les symboles. On essayera autant que possible d'écrire correctement les grands nombres. 
+
+\section*{L'écriture des calculs}
+
+\begin{itemize}
+  \item Les calculs ne s'écrivent pas les uns à la suite des autres. 
+  \item On saute une ligne à chaque étape de calcul et on aligne les signes =.
+  \item On peut faire plusieurs étapes par ligne.
+\end{itemize}
+
+\begin{itemize}
+  \item On doit lire le calcul en entier et le relire à chaque étape.
+  \item On commence par les parenthèses : $2 \times (1+4)$.
+  \item On fait ensuite les produits et les divisions en lisant de gauche à droite : $1 + 20 /div 5 \times 2$
+  \item On finit par les additions et les soustractions en lisant de gauche à droite.
+\end{itemize}
+
+\textbf{Remarque} : \\
+\textit{Attention sur la calculatrice également il est important de bien taper son calcul. } : $8 \div 2(2+2) =$ 16 (TI) ou 1 (Casio)
+
+\begin{minipage}[t]{0.5\textwidth}
+  \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\linewidth]{5x1-calculer-et-rediger-des-calculs/naruto.png}
+  \end{figure}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{5x1-calculer-et-rediger-des-calculs/calc.png}
+  \end{figure}
+\end{minipage}
+
+
+
+\section*{Les priorités de calculs}
+
+\end{document}

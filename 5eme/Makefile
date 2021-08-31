@@ -26,9 +26,9 @@ img: $(FIGOBJ)
 # Chapitre 1
 
 1c:
-	pdflatex 5x1-priorites-de-calculs/5x1-cours.tex
-	pdflatex 5x1-priorites-de-calculs/5x1-cours.tex
-	mv 5x1-cours.pdf '$(PDFDIR)'/5x1-cours.pdf
+	pdflatex 5x1-calculer/5x1-cours.tex
+	pdflatex 5x1-calculer/5x1-cours.tex
+	mv 5x1-cours.pdf '$(PDFDIR)'/5x1-cours-calculer.pdf
 
 
 # nettoyage		
