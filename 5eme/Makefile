@@ -36,6 +36,12 @@ img: $(FIGOBJ)
 	mv 5x1-dm.pdf '$(PDFDIR)'/5x1-dm-calculer.pdf
 
 
+1ie:
+	pdflatex 5x1-calculer/5x1-ie.tex
+	pdflatex 5x1-calculer/5x1-ie.tex
+	mv 5x1-ie.pdf '$(PDFDIR)'/5x1-ie-calculer.pdf
+
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

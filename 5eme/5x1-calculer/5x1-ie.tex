@@ -1,0 +1,247 @@
+\documentclass[11pt]{article}
+\usepackage{geometry,marginnote} % Pour passer au format A4
+\geometry{hmargin=1cm, vmargin=1cm} % 
+
+% Page et encodage
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage[english,french]{babel} % Français et anglais
+\usepackage[utf8]{inputenc} 
+
+\usepackage{lmodern,numprint}
+\setlength\parindent{0pt}
+
+% Graphiques
+\usepackage{graphicx,float,grffile}
+\usepackage{pst-eucl, pst-plot,units} 
+
+% Maths et divers
+\usepackage{amsmath,amsfonts,amssymb,amsthm,verbatim}
+\usepackage{multicol,enumitem,url,eurosym,gensymb}
+\DeclareUnicodeCharacter{20AC}{\euro}
+
+% Sections
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape}
+
+% Tête et pied de page
+
+\usepackage{fancyhdr} \pagestyle{fancyplain} \fancyhead{} \fancyfoot{}
+\renewcommand{\headrulewidth}{0pt} \renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\newcommand{\Pointilles}[1][3]{%
+  \multido{}{#1}{\makebox[\linewidth]{\dotfill}\\[\parskip]
+}}
+
+%----------------------------------------------------------------------------------------
+%   Début du document
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\setlength{\columnseprule}{1pt}
+
+\textbf{Nom, Prénom :} \hspace{8cm} \textbf{Classe :} \hspace{3cm} \textbf{Date :}\\
+\vspace{-0.8cm}
+\begin{center}
+  \textit{Je n'aime pas le travail, nul ne l'aime ; mais j'aime ce qui est dans le travail l'occasion de se découvrir soi-même.}  - \textbf{Joseph Conrad}
+\end{center}
+\vspace{-0.8cm}
+
+\subsection*{Exercice 1 - Calculer}
+
+\begin{multicols}{4}\noindent
+  \begin{enumerate}
+  \item $5 + \ldots\ldots = 9$
+  \item $9 \times 6 = \ldots\ldots$
+  \item $2 \div 1 = \ldots\ldots$
+  \item $11 - \ldots\ldots = 1$
+  \item $\ldots\ldots \div 9 = 3$
+  \item $6 \div \ldots\ldots = 2$
+  \item $1 \times 10 = \ldots\ldots$
+  \item $30 \div 5 = \ldots\ldots$
+  \item $15 \div 5 = \ldots\ldots$
+  \item $16 - \ldots\ldots = 6$
+  \item $9 \times \ldots\ldots = 36$
+  \item $10 + \ldots\ldots = 17$
+  \item $8 + \ldots\ldots = 16$
+  \item $\ldots\ldots + 9 = 19$
+  \item $18 - \ldots\ldots = 8$
+  \item $\ldots\ldots - 6 = 7$
+  \item $\ldots\ldots - 1 = 8$
+  \item $8 + 8 = \ldots\ldots$
+  \item $\ldots\ldots \times 7 = 7$
+  \item $\ldots\ldots \times 10 = 80$
+  \end{enumerate}
+  \end{multicols}
+
+\subsection*{Exercice 2 - Calculer avec toutes les étapes}
+
+\begin{multicols}{3}
+  \noindent
+  $A = 12\div (7-5)$ \\
+  $B = 5 + 5 \times 2)$ \\
+  $C = 10+(8-7)$ \\
+  $D = 4+11-8+12\div 3\times 7$ \\
+  $E = 2\times (4+10)+10\div (12-7)$ \\
+  $F = 7+2+9\times 5\div (3-2)$ \\
+  $G = 8+4\times 10\div (10-(2+6))$ \\
+  $H = 1{,}7\times 9{,}6-(1{,}2+6{,}3)+3{,}8$ \\
+  $I = 2{,}9\times (5{,}6+1{,}7)-4{,}4+9{,}5$ 
+  \end{multicols}
+
+  \vspace{4cm}
+
+\textbf{Nom, Prénom :} \hspace{8cm} \textbf{Classe :} \hspace{3cm} \textbf{Date :}\\
+\vspace{-0.8cm}
+\begin{center}
+  \textit{Je n'aime pas le travail, nul ne l'aime ; mais j'aime ce qui est dans le travail l'occasion de se découvrir soi-même.}  - \textbf{Joseph Conrad}
+\end{center}
+\vspace{-0.8cm}
+
+\subsection*{Exercice 1 - Calculer}
+
+\begin{multicols}{4}\noindent
+  \begin{enumerate}
+  \item $\ldots\ldots + 3 = 10$
+  \item $4 \times 5 = \ldots\ldots$
+  \item $6 \times 2 = \ldots\ldots$
+  \item $17 - 7 = \ldots\ldots$
+  \item $\ldots\ldots \times 5 = 50$
+  \item $\ldots\ldots + 8 = 14$
+  \item $7 + 10 = \ldots\ldots$
+  \item $4 \times 6 = \ldots\ldots$
+  \item $\ldots\ldots \div 7 = 10$
+  \item $21 \div \ldots\ldots = 7$
+  \item $8 - 5 = \ldots\ldots$
+  \item $10 + 2 = \ldots\ldots$
+  \item $\ldots\ldots + 4 = 14$
+  \item $8 - \ldots\ldots = 7$
+  \item $40 \div 8 = \ldots\ldots$
+  \item $20 - 10 = \ldots\ldots$
+  \item $\ldots\ldots - 10 = 7$
+  \item $1 \times 2 = \ldots\ldots$
+  \item $30 \div \ldots\ldots = 10$
+  \item $10 \div 1 = \ldots\ldots$
+  \end{enumerate}
+  \end{multicols}
+
+\subsection*{Exercice 2 - Calculer avec toutes les étapes}
+
+\begin{multicols}{3}
+  \noindent
+  $A = 40\div (9+11) $\\
+  $B = 1 + 8 \times 4 $\\
+  $C = 5\times (15+3) $\\
+  $D = 6\times (8+13)\div 3+13-7 $\\
+  $E = 3\times 10+12\div 12+10-7 $\\
+  $F = 13\times 8-12\div 3+12+5 $\\
+  $G = 11\times 12\div 6-(4+3)+3 $\\
+  $H = 9{,}1+2{,}7\times 2{,}9-(9{,}8+4{,}6) $\\
+  $I = 2{,}2+8{,}1+5{,}6\times (7{,}1-2{,}6)$
+\end{multicols}
+
+\newpage
+
+\textbf{Nom, Prénom :} \hspace{8cm} \textbf{Classe :} \hspace{3cm} \textbf{Date :}\\
+\vspace{-0.8cm}
+\begin{center}
+  \textit{Je n'aime pas le travail, nul ne l'aime ; mais j'aime ce qui est dans le travail l'occasion de se découvrir soi-même.}  - \textbf{Joseph Conrad}
+\end{center}
+\vspace{-0.8cm}
+
+\subsection*{Exercice 1 - Calculer}
+
+\begin{multicols}{4}\noindent
+  \begin{enumerate}
+  \item $3 + 4 = \ldots\ldots$
+  \item $2 + \ldots\ldots = 6$
+  \item $\ldots\ldots \times 7 = 42$
+  \item $80 \div 10 = \ldots\ldots$
+  \item $7 \div 1 = \ldots\ldots$
+  \item $\ldots\ldots \div 8 = 5$
+  \item $\ldots\ldots \div 3 = 3$
+  \item $2 + 5 = \ldots\ldots$
+  \item $\ldots\ldots + 7 = 10$
+  \item $2 \times 9 = \ldots\ldots$
+  \item $100 \div \ldots\ldots = 10$
+  \item $6 + \ldots\ldots = 8$
+  \item $\ldots\ldots \times 8 = 64$
+  \item $8 \times \ldots\ldots = 80$
+  \item $\ldots\ldots - 3 = 2$
+  \item $13 - 9 = \ldots\ldots$
+  \item $\ldots\ldots - 4 = 6$
+  \item $\ldots\ldots \times 10 = 70$
+  \item $16 - \ldots\ldots = 8$
+  \item $16 - 8 = \ldots\ldots$
+  \end{enumerate}
+  \end{multicols}
+
+\subsection*{Exercice 2 - Calculer avec toutes les étapes}
+
+\begin{multicols}{3}
+  \noindent
+  $A = 2+5\times 5 $\\
+  $B = 8 \times (12 - 4 $\\
+  $C = 5-(11-10) $\\
+  $D = 10\times 11+4-(13+2)\div 5 $\\
+  $E = 8-4+12\times (7+6)\div 3 $\\
+  $F = 4+9-4+13\times 11\div 13 $\\
+  $G = 6+12\div 2\times 9-(12+3) $\\
+  $H = 1{,}9+8{,}9+2{,}3\times 6{,}8-1{,}8 $\\
+  $I = 9{,}1-1{,}5+6\times 5{,}3+4{,}4$
+\end{multicols}
+
+\vspace{4cm}
+
+\textbf{Nom, Prénom :} \hspace{8cm} \textbf{Classe :} \hspace{3cm} \textbf{Date :}\\
+\vspace{-0.8cm}
+\begin{center}
+  \textit{Je n'aime pas le travail, nul ne l'aime ; mais j'aime ce qui est dans le travail l'occasion de se découvrir soi-même.}  - \textbf{Joseph Conrad}
+\end{center}
+\vspace{-0.8cm}
+
+\subsection*{Exercice 1 - Calculer}
+
+\begin{multicols}{4}\noindent
+  \begin{enumerate}
+  \item $4 + 8 = \ldots\ldots$
+  \item $7 \times 2 = \ldots\ldots$
+  \item $10 \times \ldots\ldots = 20$
+  \item $8 + 5 = \ldots\ldots$
+  \item $3 \div 3 = \ldots\ldots$
+  \item $\ldots\ldots \times 9 = 36$
+  \item $13 - 9 = \ldots\ldots$
+  \item $\ldots\ldots + 4 = 14$
+  \item $2 \div \ldots\ldots = 2$
+  \item $4 + 5 = \ldots\ldots$
+  \item $10 - 4 = \ldots\ldots$
+  \item $2 + \ldots\ldots = 7$
+  \item $36 \div 6 = \ldots\ldots$
+  \item $4 \times 6 = \ldots\ldots$
+  \item $13 - 6 = \ldots\ldots$
+  \item $\ldots\ldots - 6 = 10$
+  \item $\ldots\ldots \div 6 = 2$
+  \item $6 \times 10 = \ldots\ldots$
+  \item $30 \div 6 = \ldots\ldots$ 
+  \item $10 - 6 = \ldots\ldots$
+  \end{enumerate}
+  \end{multicols}
+
+\subsection*{Exercice 2 - Calculer avec toutes les étapes}
+
+\begin{multicols}{3}
+  \noindent
+  $A = 5+2\times 11 $\\
+  $B = 12-(5-2) $\\
+  $C = 4 \times (10-7) $\\
+  $D = 2+(10+3)\times 10-12\div 12 $\\
+  $E = 12 \times (6-9) \div 4+6+5 $\\
+  $F = 4\times 5-7+12\div 6+11 $\\
+  $G = 4\div 2\times 4+8+11-4 $\\
+  $H = 9{,}6+1{,}8\times (2{,}3+9{,}1)-5{,}9 $\\
+  $I= 6{,}8\times 4{,}9+1{,}2+8{,}8\div 4{,}4$
+  \end{multicols}
+
+\end{document}
