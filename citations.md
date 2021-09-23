@@ -5,6 +5,10 @@
 
 - *Le courage est le juste milieu entre la peur et l'audace* 
 
+### Charlie Chaplin
+
+- *Il faut apprendre, non pas pour l'amour de la connaissance, mais pour se défendre contre le mépris dans lequel le monde tient les ignorants.*
+
 ### René Char
 
 - *L’essentiel est sans cesse menacé par l’insignifiant.*
@@ -12,6 +16,9 @@
 ### Winston Churchill
 
 - *On vit de ce que l’on obtient. On construit sa vie sur ce que l’on donne.*
+### Joseph Conrad
+
+- *Je n’aime pas le travail, nul ne l’aime ; mais j’aime ce qui est dans le travail l’occasion de se découvrir soi-même.*
 
 ### Marie Curie
 
