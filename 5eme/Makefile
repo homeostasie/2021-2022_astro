@@ -13,13 +13,13 @@ target:
 all: img poly proper
 
 # Générations des images
-FIGSRC = $(wildcard 5x2-triangles/sources/*.ipe 5x10-angles/sources/*.ipe)
+FIGSRC = $(wildcard 5x2-symetrie-centrale/*.ipe 5x10-angles/sources/*.ipe)
 
 FIGOBJ = $(FIGSRC:.ipe=.pdf)
 
 img: $(FIGOBJ)
 
-5x2-triangles/sources/%.pdf: 5x2-triangles/sources/%.ipe
+5x2-symetrie-centrale/%.pdf: 5x2-symetrie-centrale/%.ipe
 	ipetoipe -pdf $<
 
 
@@ -40,6 +40,11 @@ img: $(FIGOBJ)
 	pdflatex 5x1-calculer/5x1-ie.tex
 	pdflatex 5x1-calculer/5x1-ie.tex
 	mv 5x1-ie.pdf '$(PDFDIR)'/5x1-ie-calculer.pdf
+
+2ie:
+	pdflatex 5x2-symetrie-centrale/5x2-ie.tex
+	pdflatex 5x2-symetrie-centrale/5x2-ie.tex
+	mv 5x2-ie.pdf '$(PDFDIR)'/5x2-ie-sym.pdf
 
 
 # nettoyage		
