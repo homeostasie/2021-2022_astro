@@ -30,7 +30,10 @@ img: $(FIGOBJ)
 	pdflatex 4x1-relatifs/4x1-ie.tex
 	mv 4x1-ie.pdf '$(PDFDIR)'/4x1-ie-relatifs.pdf
 
-
+2ie:
+	pdflatex 4x2-proportionnalite/4x2-ie.tex
+	pdflatex 4x2-proportionnalite/4x2-ie.tex
+	mv 4x2-ie.pdf '$(PDFDIR)'/4x2-ie-proportionnalite.pdf
 
 # nettoyage		
 proper:
