@@ -40,6 +40,11 @@ img: $(FIGOBJ)
 	pdflatex 4x3-triangles-semblables/4x3-cours.tex
 	mv 4x3-cours.pdf '$(PDFDIR)'/4x3-cours-semblables.pdf
 
+3ie:
+	pdflatex 4x3-triangles-semblables/4x3-ie.tex
+	pdflatex 4x3-triangles-semblables/4x3-ie.tex
+	mv 4x3-ie.pdf '$(PDFDIR)'/4x3-ie-semblables.pdf
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
