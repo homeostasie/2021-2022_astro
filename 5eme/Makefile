@@ -52,6 +52,11 @@ img: $(FIGOBJ)
 	pdflatex 5x3-triangles/5x3-cours.tex
 	mv 5x3-cours.pdf '$(PDFDIR)'/5x3-cours-triangles.pdf
 
+3ie:
+	pdflatex 5x3-triangles/5x3-ie.tex
+	pdflatex 5x3-triangles/5x3-ie.tex
+	mv 5x3-ie.pdf '$(PDFDIR)'/5x3-ie-triangles.pdf
+	
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
