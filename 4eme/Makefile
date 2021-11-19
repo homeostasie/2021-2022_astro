@@ -45,6 +45,22 @@ img: $(FIGOBJ)
 	pdflatex 4x3-triangles-semblables/4x3-ie.tex
 	mv 4x3-ie.pdf '$(PDFDIR)'/4x3-ie-semblables.pdf
 
+
+4c:
+	pdflatex 4x4-puissances/4x4-cours.tex
+	pdflatex 4x4-puissances/4x4-cours.tex
+	mv 4x4-cours.pdf '$(PDFDIR)'/4x4-cours-puissances.pdf
+
+4exo:
+	pdflatex 4x4-puissances/4x4-exo.tex
+	pdflatex 4x4-puissances/4x4-exo.tex
+	mv 4x4-exo.pdf '$(PDFDIR)'/4x4-exo-puissances.pdf
+
+4ie:
+	pdflatex 4x4-puissances/4x4-ie.tex
+	pdflatex 4x4-puissances/4x4-ie.tex
+	mv 4x4-ie.pdf '$(PDFDIR)'/4x4-ie-puissances.pdf
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
