@@ -1,0 +1,241 @@
+\input{../doc-class-cours.tex}
+
+\begin{document}
+
+\horrule{2px}
+\section*{Chapitre 4 - Puissances}
+\horrule{2px}
+
+\section*{Les connaissances}
+
+\begin{multicols}{2}
+
+  \begin{enumerate}
+    \item[1.] Apprendre la nouvelle opération.
+    \item[2.] Apprendre les règles de calculs. 
+    \item[3.] Apprendre la notation scientifique.
+    \item[4.] Savoir résoudre des problèmes. 
+  \end{enumerate}
+
+\end{multicols}
+
+\section*{1 - L'opération puissance}
+
+
+\subsection*{Une nouvelle opération}
+
+\textbf{L'opération puissance est une nouvelle opération}. On multiplie un nombre par lui-même un certain nombre de fois. En ce point, elle ressemble à la multiplication. \textit{On lit deux puissance quatre}. 
+
+\begin{flalign*}
+  2 + 2 + 2 + 2 &= 2 \times 4 \\
+  2 \times 2 \times 2 \times 2 &= 2^4 \\
+\end{flalign*}
+
+Quelques exemples : 
+
+\begin{flalign*}
+  5^6  &= 5 \times 5 \times 5 \times 5 \times 5 \times 5 \\
+  (-3)^4  &= -3 \times -3 \times -3 \times -3 
+\end{flalign*}
+  
+\textit{Il va falloir être prudent avec les signes $-$.}
+
+\subsection*{Les puissances de 2 et de 10}
+
+ Les puissances de 2 sont utilisées à la base de l'informatique pour stocker des nombres en mémoire dans le système de numération binaire. Les puissances de 10 sont utilisées pour écrire des nombres très grands.
+
+\begin{multicols}{2}
+
+  \underline{Liste des premières puissances de 2 :} 
+
+  \begin{flalign*}
+   2^1 &= 2 \\
+   2^2 &= 2 \times 2 = 4 \\
+   2^3 &= 2 \times 2 \times 2 = 8 \\
+   2^4 &= 2 \times 2 \times 2 \times 2 = 16 \\
+   2^5 &= 2 \ldots 2 = 32 \\
+   2^6 &= 2 \ldots 2 = 64 \\
+   2^7 &= 2 \ldots 2 = 128 \\
+   2^8 &= 2 \ldots 2 = 256 \\
+   2^9 &= 2 \ldots 2 = 512 \\
+   2^{10} &= 2 \ldots 2 = 1024 \\
+  \end{flalign*}
+
+  \columnbreak
+
+  \underline{Liste des premières puissances de 10 :} 
+
+  \begin{flalign*}
+  10^0 &= 1 \text{ // Par définition.} \\
+  10^1 &= 10 \text{ // On multiplie par dix.} \\
+  10^2 &= 100 \text{ //  On multiplie par cent.} \\
+  10^3 &= 1 \, 000 \text{ // On multiplie par mille.} \\
+  10^4 &= 10 \, 000 \text{ // On multiplie par dix mille.} \\
+  10^5 &= 100 \, 000 \text{ // On multiplie par cent mille.} \\
+  10^6 &= 1 \, 000\, 000 \text{ // On multiplie par un million.} \\
+  10^7 &= 10 \, 000\, 000 \\
+  10^8 &= 100 \, 000\, 000  \\
+  10^9 &= 1 \, 000\, 000 \, 000 \text{ // On multiplie par un milliard.}\\
+  10^{12} &=1 \, 000 \, 000 \, 000 \, 000 \\
+\end{flalign*}
+
+\end{multicols}
+
+\section*{2 - Les règles de calculs}
+
+Il existe \textbf{des règles} pour simplifier \textit{à la main} les puissances dans les calculs. Le but n'est pas de calculer mais de proposer une écriture plus simple.
+
+
+\begin{multicols}{2}
+  \begin{itemize}[label={$\bullet$}]
+    \item \textbf{Règle 1 : } $ 2^{10} \times 2^{12} = 2^{10 + 12} = 2^{22} $
+    \item \textbf{Règle 2 : } $ \dfrac{14^{25}}{14^{10}} = 14^{25 - 10} = 14^{15} $  
+    \item \textbf{Règle 3 : } $ (10^4)^9 = 10^{4 \times 9} = 10^{36} $
+    \item \textbf{Règle 4 : } $ 5^{19} \times 7^{19} = (5 \times 7)^{19} = 35^{19} $
+  \end{itemize}
+\end{multicols}
+  
+\section*{3. - Les puissances négatives}
+
+Retournement de situation, il n'y a pas une nouvelle opération à découvrir dans ce chapitre mais deux. 
+
+L'opération puissance fonctionne aussi avec des \textbf{exposants négatifs}. On multiplie alors un certain nombre de fois par l'inverse du nombre de départ. 
+
+\begin{flalign*}
+  2^{-4} &= \dfrac{1}{2} \times \dfrac{1}{2} \times \dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{1}{ 2 \times 2 \times 2 \times 2} = \dfrac{1}{2^4}
+\end{flalign*}
+
+\underline{Liste des premières puissances de 10 négatives:} 
+
+\begin{minipage}[t]{0.65\textwidth}
+  \begin{flalign*}
+    10^0 &= 1 \text{  // Par définition } \\
+    10^{-1} &= 0,1 \text{  // On multiplie par un dixième. } \\
+    10^{-2} &= 0,01 \text{  // On multiplie par centième. } \\
+    10^{-3} &= 0,001 \text{  // On multiplie par un millième. } \\
+  \end{flalign*}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+  \begin{flalign*}
+    10^{-4} &= 0,000 \, 1 \\
+    10^{-5} &= 0,000 \, 01\\
+    10^{-6} &= 0,000 \, 001\\
+    10^{-9} &= 0,000 \, 000 \, 000 \, 1\\
+  \end{flalign*}
+\end{minipage}
+
+\section*{4 - La notation scientifique}
+
+\subsection*{Les grands nombres}
+
+\begin{multicols}{2}
+
+  L'opération puissance permet d'obtenir rapidement de très grands nombres.
+
+  $$2^{64} = 18 \, 446 \, 744 \, 073 \, 709 \, 551 \, 616$$
+
+  \paragraph{Problème :}
+
+  \begin{itemize}
+  \item Ce nombre est difficile à lire.
+  \item Ce nombre est long à représenter.
+  \item Ce nombre est source d'erreur à écrire.
+  \end{itemize}
+
+  Les calculatrices présentent les résultats autrement : \textbf{la forme scientifique.}
+
+  $$2^{64} = 1,844 \, 674 \, 407 \times 10^{19}$$
+
+  \columnbreak
+
+  \underline{Pour écrire un nombre sous forme scientifique :} \\
+  \begin{itemize}
+  \item on place la virgule après le premier chiffre puis on multiplie par une puissance de 10. \\
+  \end{itemize}
+
+  La puissance de 10 s'appelle \textbf{l'ordre de grandeur.}\\
+  \textit{On le lit : un virgule quatre-vingt-quatre fois dix puissance dix-neuf.}
+
+  \paragraph{Conclusion :}
+
+  \begin{itemize}
+  \item La représentation de ce nombre tient à l'écran.
+  \item Ce nombre est facile à lire et à écrire.
+  \item On comprend tout de suite l'ordre de grandeur de ce nombre.
+  \end{itemize}
+
+    \textbf{La notation scientifique} utilise les puissances de dix. Pour connaître l'ordre de grandeur, on compte le nombre de chiffre entre le premier chiffre et le chiffre des unités. \\ 
+\end{multicols}
+
+\newpage
+
+\subsection*{Les petits nombres}
+
+\begin{multicols}{2}
+
+  On rencontre les mêmes problèmes avec les petits nombres.
+
+  $$2^{-10} = 0, 000 \, 976\, 562\, 5$$
+
+  Pour les mêmes raisons, les calculatrices vont aussi les représenter sous \textbf{forme scientifique}.
+
+  $$2^{-10} = 9, 7654 \, 625 \times 10^{-4}$$
+
+  \textit{On le lit : neuf virgule soixante seize fois dix puissance moins quatre.} \\
+  \textbf{La notation scientifique} utilise les puissances de dix négatives pour représenter les petits nombres. Afin de connaître l'ordre de grandeur, on compte le nombre de 0 en partant du premier. \\
+
+\end{multicols}
+ 
+
+\section*{5 - La science et le numérique}
+
+Très rapidement, ce chapitre permet d'atteindre et de comprendre les limites de notre calculatrice. \\
+
+\subsection*{Les pièges à la calculatrice}
+
+  \begin{itemize}[label={$\bullet$}]
+  \item $10^{12} + 1 = 10^{12} $. La calculatrice calcule \textbf{faux} mais affiche \textbf{correctement}. La preuve étant que $10^12 + 1 - 10^12 = 1$ à la calculatrice.
+  \item $10^{14} + 1 = 10^{14} $. La calculatrice calcule \textbf{faux} et nous affiche \textbf{faux}. La preuve étant que $10^14 + 1 - 10^14 = 0$ ce qui est faux... On peut avoir le bon résultat en changeant l'ordre des calculs : $10^14 - 10^14 +1 = 1$ 
+  \item $\dfrac{10^{100}}{10^{100}} = \text{ERREUR !} $. Notre calculatrice ne sait pas calculer avec des nombres aussi grand et nous le dit... même si le résultat est petit..
+  \end{itemize}
+
+\subsubsection*{En quête du sens physique : le très grand}
+
+\begin{multicols}{2}
+
+  \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\linewidth]{4x4-puissances/terre.png}
+  \end{figure}
+
+  \begin{flalign*}
+        10^{16} - 10^{16} + 1,6 &= 1,6 \\
+        10^{16} + 1,2 - 10^{16} &= 0 \text{\textbf{ !!!}}
+  \end{flalign*}
+
+  Pour nos calculatrices : $10^{16} + 1,6 = 10^{16}$. \\
+  Scientifiquement, l'\textbf{approximation} est acceptable. \\
+  La distance Terre-Soleil est la même que l'on mesure de notre tête ou de nos pieds.
+
+\end{multicols}
+
+\subsubsection*{En quête du sens physique : le très petit}
+
+\begin{multicols}{2}
+
+  \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\linewidth]{4x4-puissances/papier.png}
+  \end{figure}
+
+  \begin{flalign*}
+        12,5 - 12,5 + 10^{-16} &= 10^{-16} \\
+        12,5 + 10^{-16} - 12,5 &= 0 \text{\textbf{ !!!}}
+  \end{flalign*}
+
+  Pour nos calculatrices : $10^{-16} + 1,6 = 1,6$.\\
+  Scientifiquement, l'\textbf{approximation} est acceptable.\\
+  Je mesure la même taille si je me mesure du sol ou si je marche sur une feuille de papier.
+\end{multicols}
+
+\end{document}
