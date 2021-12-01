@@ -62,7 +62,13 @@ img: $(FIGOBJ)
 4c:
 	pdflatex 5x4-relatifs/5x4-cours.tex
 	pdflatex 5x4-relatifs/5x4-cours.tex
-	mv 5x4-cours.pdf '$(PDFDIR)'/5x4-cours-relatifs.pdf	
+	mv 5x4-cours.pdf '$(PDFDIR)'/5x4-cours-relatifs.pdf
+
+4exo:
+	pdflatex 5x4-relatifs/5x4-exo.tex
+	pdflatex 5x4-relatifs/5x4-exo.tex
+	mv 5x4-exo.pdf '$(PDFDIR)'/5x4-exo-relatifs.pdf	
+	
 
 # nettoyage		
 proper:
