@@ -69,7 +69,11 @@ img: $(FIGOBJ)
 	pdflatex 5x4-relatifs/5x4-exo.tex
 	mv 5x4-exo.pdf '$(PDFDIR)'/5x4-exo-relatifs.pdf	
 	
-
+4ie:
+	pdflatex 5x4-relatifs/5x4-ie.tex
+	pdflatex 5x4-relatifs/5x4-ie.tex
+	mv 5x4-ie.pdf '$(PDFDIR)'/5x4-ie-relatifs.pdf	
+	
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
