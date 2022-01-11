@@ -61,6 +61,11 @@ img: $(FIGOBJ)
 	pdflatex 4x4-puissances/4x4-ie.tex
 	mv 4x4-ie.pdf '$(PDFDIR)'/4x4-ie-puissances.pdf
 
+5c:
+	pdflatex 4x5-calcul-litteral/4x5-cours.tex
+	pdflatex 4x5-calcul-litteral/4x5-cours.tex
+	mv 4x5-cours.pdf '$(PDFDIR)'/4x5-cours-calcul-litteral.pdf	
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
