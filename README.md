@@ -21,14 +21,21 @@
 
 ##### Cinquième
 
-* Chapitre 1 - Priorité de calculs - (T)
-
+* Chapitre 1 - Priorité de calculs
+* Chapitre 2 - Symétrie Centrale
+* Chapitre 3 - Triangles
+* Chapitre 4 - Nombres relatifs
+* Chapitre 5 - Aires et Périmètres
+* Chapitre 6 - Calcul littéral
 
 
 ##### Quatrième
 
 * Chapitre 1 - Nombres relatifs
-
+* Chapitre 2 - Proportionnalité
+* Chapitre 3 - Triangles semblables
+* Chapitre 4 - Puissances
+* Chapitre 5 - Calcul littéral
 
 
 ----------------------------------------------------
