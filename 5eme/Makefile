@@ -87,6 +87,13 @@ img: $(FIGOBJ)
 	pdflatex 5x6-calcul-litteral/5x6-cours.tex
 	pdflatex 5x6-calcul-litteral/5x6-cours.tex
 	mv 5x6-cours.pdf '$(PDFDIR)'/5x6-cours-calcul-litteral.pdf
+
+6pie:
+	pdflatex 5x6-calcul-litteral/5x6-prog-ie.tex
+	pdflatex 5x6-calcul-litteral/5x6-prog-ie.tex
+	mv 5x6-prog-ie.pdf '$(PDFDIR)'/5x6-prog-ie.pdf
+
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps

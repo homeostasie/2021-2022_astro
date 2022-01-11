@@ -64,7 +64,12 @@ img: $(FIGOBJ)
 5c:
 	pdflatex 4x5-calcul-litteral/4x5-cours.tex
 	pdflatex 4x5-calcul-litteral/4x5-cours.tex
-	mv 4x5-cours.pdf '$(PDFDIR)'/4x5-cours-calcul-litteral.pdf	
+	mv 4x5-cours.pdf '$(PDFDIR)'/4x5-cours-calcul-litteral.pdf
+
+5pie:
+	pdflatex 4x5-calcul-litteral/4x5-prog-ie.tex
+	pdflatex 4x5-calcul-litteral/4x5-prog-ie.tex
+	mv 4x5-prog-ie.pdf '$(PDFDIR)'/4x5-prog-ie.pdf		
 
 # nettoyage		
 proper:
