@@ -83,6 +83,10 @@ img: $(FIGOBJ)
 	pdflatex 5x5-aires-et-perimetres/5x5-ie.tex
 	mv 5x5-ie.pdf '$(PDFDIR)'/5x5-ie-aires-et-perimetres.pdf		
 	
+6c:
+	pdflatex 5x6-calcul-litteral/5x6-cours.tex
+	pdflatex 5x6-calcul-litteral/5x6-cours.tex
+	mv 5x6-cours.pdf '$(PDFDIR)'/5x6-cours-calcul-litteral.pdf
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
