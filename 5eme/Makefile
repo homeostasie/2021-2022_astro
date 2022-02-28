@@ -93,6 +93,20 @@ img: $(FIGOBJ)
 	pdflatex 5x6-calcul-litteral/5x6-prog-ie.tex
 	mv 5x6-prog-ie.pdf '$(PDFDIR)'/5x6-prog-ie.pdf
 
+6ie:
+	pdflatex 5x6-calcul-litteral/5x6-ie.tex
+	pdflatex 5x6-calcul-litteral/5x6-ie.tex
+	mv 5x6-ie.pdf '$(PDFDIR)'/5x6-ie-calcul-litteral.pdf
+
+7c:
+	pdflatex 5x7-fractions/5x7-cours.tex
+	pdflatex 5x7-fractions/5x7-cours.tex
+	mv 5x7-cours.pdf '$(PDFDIR)'/5x7-cours-fractions.pdf
+
+7ie:
+	pdflatex 5x7-fractions/5x7-ie.tex
+	pdflatex 5x7-fractions/5x7-ie.tex
+	mv 5x7-ie.pdf '$(PDFDIR)'/5x7-ie-fractions.pdf		
 
 # nettoyage		
 proper:
