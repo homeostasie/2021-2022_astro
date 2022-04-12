@@ -113,7 +113,12 @@ img: $(FIGOBJ)
 8ie:
 	pdflatex 5x8-angles/5x8-ie.tex
 	pdflatex 5x8-angles/5x8-ie.tex
-	mv 5x8-ie.pdf '$(PDFDIR)'/5x8-ie-angles.pdf		
+	mv 5x8-ie.pdf '$(PDFDIR)'/5x8-ie-angles.pdf
+
+9ie:
+	pdflatex 5x9-negatifs/5x9-ie.tex
+	pdflatex 5x9-negatifs/5x9-ie.tex
+	mv 5x9-ie.pdf '$(PDFDIR)'/5x9-ie-negatifs.pdf
 
 # nettoyage		
 proper:
