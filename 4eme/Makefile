@@ -87,6 +87,11 @@ img: $(FIGOBJ)
 	pdflatex 4x7-vitesse/4x7-ie.tex
 	mv 4x7-ie.pdf '$(PDFDIR)'/4x7-ie-vitesse.pdf
 
+8ie:
+	pdflatex 4x8-statistiques/4x8-ie.tex
+	pdflatex 4x8-statistiques/4x8-ie.tex
+	mv 4x8-ie.pdf '$(PDFDIR)'/4x8-ie-statistiques.pdf	
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
