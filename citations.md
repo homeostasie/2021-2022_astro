@@ -3,7 +3,11 @@
 
 ### Aristote
 
-- *Le courage est le juste milieu entre la peur et l'audace* 
+- *Le courage est le juste milieu entre la peur et l'audace.* 
+
+### Isaac Asimov 
+
+- *Une fausse bonne idée est de croire que la démocratie signifie que "mon ignorance est aussi bonne que votre connaissance".*
 
 ### Charlie Chaplin
 
@@ -24,6 +28,7 @@
 ### Marie Curie
 
 - *On ne craint que ce que l'on ne connaît pas.*
+- *Rien dans la vie n'est à craindre, tout doit être compris. C'est maintenant le moment de comprendre davantage, afin de craindre moins.*
 
 ### Philip K. Dick
 
@@ -44,6 +49,11 @@
 ### Benjamin Franklin
 
 - *Un peuple prêt à sacrifier un peu de liberté pour un peu de sécurité ne mérite ni l'une ni l'autre, et finit par perdre les deux.*
+
+
+### Stephen Hawking
+
+- *Le plus grand ennemi de la connaissance n'est pas l'ignorance. C'est l'illusion de la connaissance.*
 
 ### Victor Hugo
 
