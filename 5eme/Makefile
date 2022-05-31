@@ -120,6 +120,13 @@ img: $(FIGOBJ)
 	pdflatex 5x9-negatifs/5x9-ie.tex
 	mv 5x9-ie.pdf '$(PDFDIR)'/5x9-ie-negatifs.pdf
 
+
+10ie:
+	pdflatex 5x10-statistiques/5x10-ie.tex
+	pdflatex 5x10-statistiques/5x10-ie.tex
+	mv 5x10-ie.pdf '$(PDFDIR)'/5x10-ie-statistiques.pdf
+
+
 # nettoyage		
 proper:
 	rm -f *.log *.toc *.aux *.nav *.snm *.out *.bbl *.blg *.dvi *.ps
