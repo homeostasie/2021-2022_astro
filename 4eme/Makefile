@@ -90,7 +90,12 @@ img: $(FIGOBJ)
 8ie:
 	pdflatex 4x8-statistiques/4x8-ie.tex
 	pdflatex 4x8-statistiques/4x8-ie.tex
-	mv 4x8-ie.pdf '$(PDFDIR)'/4x8-ie-statistiques.pdf	
+	mv 4x8-ie.pdf '$(PDFDIR)'/4x8-ie-statistiques.pdf
+
+9dm:
+	pdflatex 4x9-volumes/4x9-dm.tex
+	pdflatex 4x9-volumes/4x9-dm.tex
+	mv 4x9-dm.pdf '$(PDFDIR)'/4x9-dm-volumes.pdf		
 
 # nettoyage		
 proper:
