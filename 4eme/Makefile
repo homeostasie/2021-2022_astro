@@ -13,7 +13,7 @@ target:
 all: img poly proper
 
 # Générations des images
-FIGSRC = $(wildcard 4x3-triangles-semblables/*.ipe 4x6-Pythagore/*.ipe)
+FIGSRC = $(wildcard 4x3-triangles-semblables/*.ipe 4x6-Pythagore/*.ipe 4xbb/*.ipe)
 
 FIGOBJ = $(FIGSRC:.ipe=.pdf)
 
@@ -25,6 +25,8 @@ img: $(FIGOBJ)
 4x6-Pythagore/%.pdf: 4x6-Pythagore/%.ipe
 	ipetoipe -pdf $<
 
+4xbb/%.pdf: 4xbb/%.ipe
+	ipetoipe -pdf $<
 
 1ie:
 	pdflatex 4x1-relatifs/4x1-ie.tex
@@ -95,7 +97,12 @@ img: $(FIGOBJ)
 9dm:
 	pdflatex 4x9-volumes/4x9-dm.tex
 	pdflatex 4x9-volumes/4x9-dm.tex
-	mv 4x9-dm.pdf '$(PDFDIR)'/4x9-dm-volumes.pdf		
+	mv 4x9-dm.pdf '$(PDFDIR)'/4x9-dm-volumes.pdf
+
+bb:
+	pdflatex 4xbb/4xbb.tex
+	pdflatex 4xbb/4xbb.tex
+	mv 4xbb.pdf '$(PDFDIR)'/4x9-bb.pdf		
 
 # nettoyage		
 proper:
