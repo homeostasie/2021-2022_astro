@@ -126,6 +126,11 @@ img: $(FIGOBJ)
 	pdflatex 5x10-statistiques/5x10-ie.tex
 	mv 5x10-ie.pdf '$(PDFDIR)'/5x10-ie-statistiques.pdf
 
+11ie:
+	pdflatex 5x11-proportionnalite/5x11-ie.tex
+	pdflatex 5x11-proportionnalite/5x11-ie.tex
+	mv 5x11-ie.pdf '$(PDFDIR)'/5x11-ie-proportionnalite.pdf
+
 
 # nettoyage		
 proper:
